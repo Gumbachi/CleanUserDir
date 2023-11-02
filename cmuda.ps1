@@ -1,5 +1,3 @@
-# This is a comment
-
 Param(
     [string]$UserDir
 )
@@ -10,8 +8,6 @@ $Hidden = @()
 if (-Not (Test-Path $UserDir)) {
     throw "Path does not exist, you lied to me >:("
 }
-
-# Write-Host (Get-ChildItem -Path $UserDir)
 
 Write-Host "Hiding Specific Files ..."
 foreach ($File in $NonDotFiles) {
