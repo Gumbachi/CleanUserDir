@@ -1,4 +1,4 @@
-# Clean My User Directory Automagically
+# Clean User Directory  
 
 Run the script and provide a valid directory and it will hide all dot files and folders that are listed in the `$NonDotFiles` array  
   
